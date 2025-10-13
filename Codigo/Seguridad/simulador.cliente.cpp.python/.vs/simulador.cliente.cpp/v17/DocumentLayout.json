@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\peticionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:peticionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\peticionresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:peticionresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\pedidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:pedidodetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\hmachelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:hmachelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\peticionservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:peticionservice1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:excelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|d:\\maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0754763-F529-5EFB-EA59-FCB9E10F2E64}|simulador.cliente.cpp.csproj|solutionrelative:pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T22:53:40.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PeticionService.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionService.cs",
+              "RelativeDocumentMoniker": "PeticionService.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionService.cs",
+              "RelativeToolTip": "PeticionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T22:58:15.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HmacHelper.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\HmacHelper.cs",
+              "RelativeDocumentMoniker": "HmacHelper.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\HmacHelper.cs",
+              "RelativeToolTip": "HmacHelper.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T22:21:21.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PeticionService1.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionService1.cs",
+              "RelativeDocumentMoniker": "PeticionService1.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionService1.cs",
+              "RelativeToolTip": "PeticionService1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAASwCEAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T17:21:06.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\AppConfig.cs",
+              "RelativeDocumentMoniker": "AppConfig.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\AppConfig.cs",
+              "RelativeToolTip": "AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T16:21:28.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PeticionResultado.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionResultado.cs",
+              "RelativeDocumentMoniker": "PeticionResultado.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PeticionResultado.cs",
+              "RelativeToolTip": "PeticionResultado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:31:37.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoDetalleDto.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PedidoDetalleDto.cs",
+              "RelativeDocumentMoniker": "PedidoDetalleDto.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PedidoDetalleDto.cs",
+              "RelativeToolTip": "PedidoDetalleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:12:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoDto.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PedidoDto.cs",
+              "RelativeDocumentMoniker": "PedidoDto.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\PedidoDto.cs",
+              "RelativeToolTip": "PedidoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T23:11:38.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExcelService.cs",
+              "DocumentMoniker": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\ExcelService.cs",
+              "RelativeDocumentMoniker": "ExcelService.cs",
+              "ToolTip": "D:\\Maestria\\reto2\\ccp\\ccp.pedido1\\simulador.cliente.cpp.python\\ExcelService.cs",
+              "RelativeToolTip": "ExcelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T22:57:29.454Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

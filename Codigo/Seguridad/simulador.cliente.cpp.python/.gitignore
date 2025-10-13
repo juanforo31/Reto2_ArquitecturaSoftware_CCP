@@ -1,0 +1,54 @@
+# Build results
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# AWS Lambda-specific
+.aws-sam/
+*.template.json
+*.template.yaml
+*.zip
+
+# .NET Core / .NET 8
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Others
+*.DS_Store
+Thumbs.db

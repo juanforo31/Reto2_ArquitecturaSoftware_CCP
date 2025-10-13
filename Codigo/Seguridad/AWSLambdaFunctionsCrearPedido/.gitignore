@@ -1,0 +1,95 @@
+########################################
+# .NET Core / .NET 8
+########################################
+bin/
+obj/
+out/
+artifacts/
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.bak
+*.sql
+*.mdf
+*.ldf
+*.ndf
+
+########################################
+# AWS Lambda / SAM
+########################################
+.aws-sam/
+*.template.json
+*.template.yaml
+*.zip
+
+########################################
+# NuGet
+########################################
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+########################################
+# Visual Studio
+########################################
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+*.dbmdl
+*.psess
+*.vsp
+*.vsix
+*.cache
+*.pfx
+*.publishsettings
+
+########################################
+# Visual Studio Code
+########################################
+.vscode/
+.history/
+*.code-workspace
+
+########################################
+# Rider / JetBrains
+########################################
+.idea/
+*.sln.iml
+
+########################################
+# Test Results
+########################################
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+########################################
+# OS-specific
+########################################
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+########################################
+# Others
+########################################
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
