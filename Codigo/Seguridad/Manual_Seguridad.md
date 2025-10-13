@@ -74,10 +74,8 @@ Si las firmas **no coinciden**:
 
 - Se retorna `401 Unauthorized`
 - Se registra el intento de manipulación
-- Se deshabilita el JWT del vendedor
-- Se notifica al administrador y al vendedor
 
-Esto cumple con la táctica **ASR de verificación y detección**.
+Esto cumple con la táctica **ASR de detección**.
 
 ---
 
@@ -85,17 +83,3 @@ Esto cumple con la táctica **ASR de verificación y detección**.
 
 En el servidor se mide el tiempo desde que se recibe el JSON hasta que se termina la comparación de firmas.
 
-### Ejemplo de salida:
-
-```json
-{
-  "verificacionExitosa": true,
-  "tiempoVerificacionMs": 12
-}
-```
-
-Este valor permite evaluar el rendimiento del sistema ante múltiples verificaciones.
-
----
-
-¿Quieres que te ayude a generar el script de Postman para automatizar la firma HMAC o documentar el flujo como diagrama visual? También puedo ayudarte a extender el experimento con métricas agregadas por vendedor o por tipo de ataque.
