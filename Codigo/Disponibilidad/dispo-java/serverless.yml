@@ -1,0 +1,28 @@
+service: lambda-producto
+
+
+provider:
+  name: aws
+  runtime: java21
+  region: us-east-1
+  environment:
+    TABLE_NAME: Productos
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - dynamodb:GetItem
+          Resource:
+            - arn:aws:dynamodb:us-east-1:652276263254:table/Productos
+
+package:
+  artifact: target/LambdaInventario-1.0-SNAPSHOT.jar
+
+functions:
+  getProducto:
+    handler: com.example.lambda.GetProductoLambda
+    events:
+      - httpApi:
+          path: /producto/{id}
+          method: get

@@ -1,0 +1,17 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: jikko
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: coordinator-dispo
+
+provider:
+  name: aws
+  runtime: provided.al2  # Go usa un runtime personalizado
+  architecture: x86_64
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: producto
+          method: post

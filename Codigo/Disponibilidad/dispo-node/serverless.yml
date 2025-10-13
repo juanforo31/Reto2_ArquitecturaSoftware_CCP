@@ -1,0 +1,22 @@
+# "org" ensures this Service is used with the correct Serverless Framework Access Key.
+org: jikko
+# "service" is the name of this project. This will also be added to your AWS resource names.
+service: dispo-node
+
+provider:
+  name: aws
+  runtime: nodejs20.x
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+      Resource:
+        - arn:aws:dynamodb:us-east-1:652276263254:table/Productos
+
+functions:
+  hello:
+    handler: handler.handler
+    events:
+      - http:
+          path: producto/{id}
+          method: get

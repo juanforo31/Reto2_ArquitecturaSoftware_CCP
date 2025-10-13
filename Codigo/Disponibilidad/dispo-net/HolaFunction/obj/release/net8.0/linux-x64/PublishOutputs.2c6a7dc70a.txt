@@ -1,0 +1,9 @@
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\HolaFunction.deps.json
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\HolaFunction.runtimeconfig.json
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\HolaFunction.pdb
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\Amazon.Lambda.APIGatewayEvents.dll
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\Amazon.Lambda.Core.dll
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\AWSSDK.Core.dll
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\AWSSDK.DynamoDBv2.dll
+C:\Code\Universidad\Arquitectura_Software\lambdas\LambdaHola\HolaFunction\bin\release\net8.0\publish\HolaFunction.dll
