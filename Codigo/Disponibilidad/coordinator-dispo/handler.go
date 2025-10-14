@@ -55,20 +55,20 @@ func fetchProducto(nombre, url string, ch chan<- resultado) {
 	ch <- resultado{Nombre: nombre, Producto: &producto}
 }
 
-func majorityCantidad(productos []*Producto) (int, map[int]int) {
-	counts := make(map[int]int)
-	for _, p := range productos {
-		counts[p.Cantidad]++
-	}
-
-	var maxCount, majority int
-	for cantidad, count := range counts {
-		if count > maxCount {
-			maxCount = count
-			majority = cantidad
+func verificarCantidadEsperada(respuestas map[string]interface{}, cantidadEsperada int) (exitosos []string, revisar []string) {
+	for nombre, data := range respuestas {
+		if p, ok := data.(*Producto); ok {
+			if p.Cantidad == cantidadEsperada {
+				exitosos = append(exitosos, nombre)
+			} else {
+				log.Printf("⚠ Inconsistencia: %s devolvió cantidad %d (esperado %d)", nombre, p.Cantidad, cantidadEsperada)
+				revisar = append(revisar, nombre)
+			}
+		} else {
+			revisar = append(revisar, nombre) // Error técnico o sin datos
 		}
 	}
-	return majority, counts
+	return exitosos, revisar
 }
 
 func handler(ctx context.Context, event events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
@@ -80,46 +80,29 @@ func handler(ctx context.Context, event events.APIGatewayProxyRequest) (events.A
 	}
 
 	respuestas := make(map[string]interface{})
-	var productos []*Producto
-	var coincidenConMayoría []string
-	var noCoincidenConMayoría []string
-
 	for i := 0; i < len(urls); i++ {
 		r := <-ch
 		if r.Error != nil {
 			log.Printf("❌ %s falló: %v", r.Nombre, r.Error)
 			respuestas[r.Nombre] = fmt.Sprintf("Error: %v", r.Error)
-			noCoincidenConMayoría = append(noCoincidenConMayoría, r.Nombre) // Error técnico = falla
 		} else {
 			log.Printf("✅ %s respondió: %+v", r.Nombre, *r.Producto)
 			respuestas[r.Nombre] = r.Producto
-			productos = append(productos, r.Producto)
 		}
 	}
 
-	majority, counts := majorityCantidad(productos)
-
-	for nombre, data := range respuestas {
-		if p, ok := data.(*Producto); ok {
-			if p.Cantidad == majority {
-				coincidenConMayoría = append(coincidenConMayoría, nombre)
-			} else {
-				log.Printf("⚠️ Inconsistencia: %s devolvió cantidad %d (esperado %d)", nombre, p.Cantidad, majority)
-				noCoincidenConMayoría = append(noCoincidenConMayoría, nombre)
-			}
-		}
-	}
+	cantidadEsperada := 300
+	exitosos, revisar := verificarCantidadEsperada(respuestas, cantidadEsperada)
 
 	elapsed := time.Since(start)
-	log.Printf("⏱️ Tiempo total de ejecución: %s", elapsed)
+	log.Printf("⏱ Tiempo total de ejecución: %s", elapsed)
 
 	body, _ := json.Marshal(map[string]interface{}{
-		"respuestas":        respuestas,
-		"cantidadMayoría":   majority,
-		"conteoPorCantidad": counts,
-		"tiempoTotal":       elapsed.String(),
-		"Exitosos":          coincidenConMayoría,
-		"Revisar":           noCoincidenConMayoría,
+		"respuestas":       respuestas,
+		"cantidadEsperada": cantidadEsperada,
+		"tiempoTotal":      elapsed.String(),
+		"Exitosos":         exitosos,
+		"Revisar":          revisar,
 	})
 
 	return events.APIGatewayProxyResponse{
